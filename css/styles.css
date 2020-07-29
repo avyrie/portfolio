@@ -29,10 +29,10 @@ li a {
     transition: transform 0.2s ease-in-out;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
     transform: scale(2);
-}
+} */
 
 main {
     left: 0;
@@ -116,3 +116,9 @@ footer {
     padding-top: 15px;
     bottom: 0;
 }
+
+/* Notes:
+- at 500px width, turn nav into a hamburger 
+- at 388px width, on contact page, find way to maintain contact box with no overflow
+- below 320px width, the footer bar starts to not span the entire width of the page (the nav bar still extends the whole width)
+*/
