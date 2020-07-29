@@ -28,26 +28,16 @@
     <body>
 
         <header>
-            <nav>
-                <ul class="navigation">
-                    <li class="nav-links">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="aboutme.html">About Me</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-links">
-                        <!-- <a href="resume.html">Resume</a> -->
-                    <a href="">Resume</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars" id="hamburger"></i>
+                </a>
+              </div>
         </header>
 
             <section class="hero">
