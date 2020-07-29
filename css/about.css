@@ -8,3 +8,7 @@
 img {
     width: 25vw !important;
 }
+
+p {
+    padding-top: 25px;
+}

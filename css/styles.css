@@ -88,7 +88,7 @@
 
 /* Main */
 main {
-    left: 0;
+    width: 100%;
 }
 
 .hero {
@@ -120,11 +120,11 @@ h1 {
 
 .me {
     display: flex;
-    width: 60%;
+    /* width: 70%; */
     padding-top: 50px;
-    padding-left: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    /* padding-left: 30px; */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .about-link {
@@ -148,7 +148,7 @@ a h4 {
     flex-direction: column;
     height: 100%;
     padding-left: 50px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 /* Footer */
@@ -169,7 +169,6 @@ footer {
 }
 
 /* Notes:
-- at 500px width, turn nav into a hamburger 
 - at 388px width, on contact page, find way to maintain contact box with no overflow
 - below 320px width, the footer bar starts to not span the entire width of the page (the nav bar still extends the whole width)
 */

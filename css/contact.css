@@ -37,6 +37,10 @@ h5 {
     padding: 25px;
 }
 
+main {
+    width: 80%;
+}
+
 i {
     padding-right: 10px;
 }
