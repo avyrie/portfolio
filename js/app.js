@@ -5,4 +5,11 @@ function myFunction() {
     } else {
       x.className = "topnav";
     };
+
+    let y = document.getElementById("hamburger");
+    if (y.className === "fa fa-bars") {
+      y.className += " clickburger";
+    } else {
+      y.className = "fa fa-bars";
+    };
 }

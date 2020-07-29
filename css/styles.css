@@ -60,6 +60,10 @@
     i {
         color: white;
     }
+    .clickburger {
+        color: rgba(163, 27, 163);
+    }
+
     .topnav {
         justify-content: right;
     }
