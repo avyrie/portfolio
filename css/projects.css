@@ -1,0 +1,44 @@
+.hero {
+    background: url('../images/sneaky-elbow-N4FB-VFMNEk-unsplash.jpg') top center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+img {
+    display: inline-block;
+    width: 35vw !important;
+    padding: 15px;
+}
+
+.tama {
+    padding: 25px;
+    display: flex;
+}
+
+.tama h5 {
+    margin: auto 0;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    color: rgba(163, 27, 163, 0.9);
+}
+
+.tama p {
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.tama a:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    cursor: pointer;
+}
