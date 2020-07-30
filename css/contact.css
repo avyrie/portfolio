@@ -48,3 +48,7 @@ i {
 h5, div a {
     padding-left: 15px;
 }
+
+.logo {
+    color: rgba(163, 27, 163);
+}
