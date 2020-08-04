@@ -14,10 +14,24 @@
     margin-right: 3%;
 }
 
+.proj-links {
+    display: block;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.colon {
+    text-decoration: underline;
+}
+
 img {
     display: inline-block;
     width: 35vw !important;
     padding: 15px;
+}
+
+a {
+    color: rgba(163, 27, 163, 0.9);
 }
 
 .tama {
@@ -33,11 +47,6 @@ img {
     color: rgba(163, 27, 163, 0.9);
 }
 
-.tama p {
-    padding-top: 45px;
-    padding-left: 30px;
-}
-
 .tama a:hover {
     opacity: 1;
     transform: scale(1.10);
@@ -46,4 +55,17 @@ img {
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     transition: all .5s ease;
+}
+
+button {
+    color: white;
+    background: rgba(163, 27, 163, 0.7);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-color: rgba(163, 27, 163, 0.4);
+}
+
+#collab-proj, #pet-proj, #tama-proj {
+    padding-top: 20px;
 }
