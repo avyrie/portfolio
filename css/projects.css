@@ -37,7 +37,11 @@ a {
 .tama {
     padding: 25px;
     display: flex;
+    flex-wrap: wrap;
     transition: .5s;
+    margin: auto;
+    width: 100vw;
+    overflow: auto;
 }
 
 .tama h5 {
@@ -68,6 +72,7 @@ button {
 
 h6 {
     padding-bottom: 10px;
+    word-break: break-all;
 }
 
 #collab-proj, #pet-proj, #tama-proj, #wayfarer {
