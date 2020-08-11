@@ -12,3 +12,36 @@ img {
 p {
     padding-top: 25px;
 }
+
+.first {
+    display: inline-block;
+}
+
+.first p {
+    padding-top: 10px;
+}
+
+.first h5 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.soft-icon {
+    padding-top: 15px;
+    padding-right: 10px;
+    width: 7vw !important;
+}
+
+#js-icon {
+    width: 9.5vw !important;
+    padding-right: 0px;
+    margin-left: 15px;
+}
+
+#css-icon {
+    margin-left: 25px;
+}
+
+#python-icon {
+    width: 18vw !important;
+}
