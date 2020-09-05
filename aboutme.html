@@ -27,113 +27,169 @@
     <title>About - Pittman</title>
 </head>
 
-<body>
-
-    <header>
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="aboutme.html" class="active">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="resume.html">Resume</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </header>
-
     <body>
 
-        <section class="hero">
-            
-        </section>
-
-        <section class="me first">
-
-            <h5><strong>Software Knowledge:</strong></h5>
-            <img class="soft-icon" src="./images/HTML5_logo.png"/>
-            <img class="soft-icon" id="css-icon" src="./images/CSS3.png"/>
-            <img class="soft-icon" id="js-icon" src="./images/javascript-icon.webp"/>
-            <img class="soft-icon" id="python-icon" src="./images/python-icon.png"/>
-            <img class="soft-icon" id="react-icon" src="./images/react-icon.jpg"/>
-           
-            
-            
-            <p> jQuery, EJS, Node.js, Express.js, MongoDB, Mongoose, Bootstrap, Django </p>
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html" class="active">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
             </div>
+        </header>
 
+        <!-- Hero -->
+        <section class="hero">  
         </section>
 
-        <section class="me">
+        <!-- <div class="me"> -->
 
-            <p>Hello! My name is Ally and I am a Software Engineer. When I was furloughed from my job in Inventory Management due to Covid-19, I knew I had to find a way to keep moving forward instead of just sitting around waiting for things to improve enough for me to go back to work.</p>
-            <div class="welcome"> 
-                <img class="prof-pic" src='./images/mepolka.jpg' alt="Ally in a white dress with black polka dots"/>
+            <!-- Software Knowledge -->
+            <div class="software">
+                <section class="first">
+                    
+                    <h5 id="soft-know"><strong>Software Knowledge</strong></h5>
+                    <div class="s-icons">
+                        <img class="soft-icon" src="./images/HTML5_logo.png"/>
+                        <img class="soft-icon" id="css-icon" src="./images/CSS3.png"/>
+                        <img class="soft-icon" id="js-icon" src="./images/javascript-icon.webp"/>
+                        <img class="soft-icon" id="python-icon" src="./images/python-icon.png"/>
+                        <img class="soft-icon" id="react-icon" src="./images/react-icon.jpg"/>
+                    </div>
+                    
+                    <p class="soft-list"> jQuery, EJS, Node.js, Express.js, MongoDB, Mongoose, Bootstrap, Django </p>
+                    
+                </section>
             </div>
+        <!-- </div> -->
+        <div class="about-content">
+            <!-- Me Picture Carousel -->
+            <div class="container c-one">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner prof-pic">
+                                <div class="carousel-item active">
+                                    <img class="d-block prof-pic" src="./images/mepolka.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item prof-pic">
+                                    <img class="d-block prof-pic" src="./images/seavs.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item prof-pic">
+                                    <img class="d-block prof-pic" src="./images/caspian.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item prof-pic">
+                                    <img class="d-block prof-pic" src="./images/animals.jpg" alt="Fourth slide">
+                                </div>
+                            </div>
+                            
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
 
-        </section>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
 
-        <section class="me">
+                        </div>
+                        
+                    </div>
+                    <!-- Me Paragraphs -->
+                    <div class="col">
+                        <section class="paragraphs">
+                            <p>Hello! My name is Ally and I am a Software Engineer. When I was furloughed from my job in Inventory Management due to Covid-19, I knew I had to find a way to keep moving forward instead of just sitting around waiting for things to improve enough for me to go back to work.
+                                
+                            <span id="dots1"><strong></strong></span>
+                            <span id="more1">
 
-            <img class="prof-pic" src='./images/seavs.jpg' alt="Ally at job at vet holding spider ball python"/>
-            <div class="welcome"> 
-                <p>I stumbled across an ad for a free intro to HTML and CSS mini course through General Assembly and signed up for an immersive Software Engineering bootcamp immediately after completing the intro course. It has been a whirlwind since then, but I have enjoyed every second of it!</p>
+                            <br />
+                            <br />
+                            I stumbled across an ad for a free intro to HTML and CSS mini course through General Assembly and signed up for an immersive Software Engineering bootcamp immediately after completing the intro course. It has been a whirlwind since then, but I have enjoyed every second of it!
+                            <br />
+                            <br />
+                            I have been working professionally since the age of 13. My past work experience has mostly included customer service, administration assistance, social media control, data entry, and animal care. Post-high school, I was accepted into and attended Coastal Carolina University for Marine Science and later transferred to George Mason University where I went on to achieve my BS in Biology.
+                            <br />
+                            <br />
+                            When I am not coding, you can find me hiking, playing video games, or hanging out with one (or sometimes all) of my pets. My current menagerie includes two ball pythons and one kitty. In the past, my menagerie has included a zebra finch, a ferret, a spiny mantid, an orchid mantid, a chinchilla, multitudes of tropical freshwater fish, and a crested gecko.
+                            </span></p>
+                            <strong><a onclick="aboutFunction1()" class="read-link" id="myBtn1">Read More...</a></strong>
+                        </section>       
+                            
+                    </div>
+                </div>
             </div>
+                
+            <!-- Animals Picture Carousel -->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators carousel-dash">
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner prof-pic">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 prof-pic" src="./images/bart.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item prof-pic">
+                                    <img class="d-block w-100 prof-pic" src="./images/quinny.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item prof-pic">
+                                    <img class="d-block w-100 prof-pic" src="./images/caspianbday.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next next-arrow" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Animals Description Paragraphs -->
+                    <div class="col">
+                        <section class="paragraphs">
+                            <p>Bartholemoux is my pastel ball python. I have had him since he was just a few months old and he is now 4 years old as of 2020! I love attending pet and reptile expos and Bartholemous is my go-to expo buddy! He is wonderful to display for educational purposes as he is very calm and gentle. He is a snake ambassador helping to decrease the negative stigmas surrounding snakes!
 
-        </section>
+                            <span id="dots2"><strong></strong></span>
+                            <span id="more2">
 
-        <section class="me">
-            
-            <p>I have been working professionally since the age of 13. My past work experience has mostly included customer service, administration assistance, social media control, data entry, and animal care. Post-high school, I was accepted into and attended Coastal Carolina University for Marine Science and later transferred to George Mason University where I went on to achieve my BS in Biology.</p>
-            <div class="welcome"> 
-                <img class="prof-pic" src='./images/caspian.jpg' alt="Ally with Caspian around her neck"/>
+                            <br />
+                            <br />
+                            Quinn is my calico domestic shorthair cat. I rescued her at 5 weeks old and she is 4 years old as of 2020! She has been with me through thick and thin and is the best cuddle buddy a girl could ask for.
+                            <br />
+                            <br />
+                            Caspian is my "captain banana" ball python (a champagne x banana with ringers). He came to me at a young age and is officially 1 year old as of 2020! He is my newest addition and has proved to be nothing but a total bundle of sweetness! </span></p>
+
+                            <strong><a onclick="aboutFunction2()" class="read-link" id="myBtn2">Read More...</a></strong>
+                        </section>
+                    </div>
+                </div>
             </div>
-
-        </section>
-
-        <section class="me">
-
-            <img class="prof-pic" src='./images/animals.jpg' alt="Ally holding Quinn and Bartholemoux"/>
-            <div class="welcome"> 
-                <p>When I am not coding, you can find me hiking, playing video games, or hanging out with one (or sometimes all) of my pets. My current menagerie includes two ball pythons and one kitty. In the past, my menagerie has included a zebra finch, a ferret, a spiny mantid, an orchid mantid, a chinchilla, multitudes of tropical freshwater fish, and a crested gecko.</p>
-            </div>
-
-        </section>
-
-        <section class="me">
-            
-            <p>Bartholemoux is my pastel ball python. I have had him since he was just a few months old and he is now 4 years old as of 2020! I love attending pet and reptile expos and Bartholemous is my go-to expo buddy! He is wonderful to display for educational purposes as he is very calm and gentle. He is a snake ambassador helping to decrease the negative stigmas surrounding snakes!</p>
-            <div class="welcome"> 
-                <img class="prof-pic" src='./images/bart.jpg' alt="Bartholemoux on a picnic table"/>
-            </div>
-
-        </section>
-
-        <section class="me">
-
-            <img class="prof-pic" src='./images/quinny.jpg' alt="Quinn sleeping"/>
-            <div class="welcome"> 
-                <p>Quinn is my calico domestic shorthair cat. I rescued her at 5 weeks old and she is 4 years old as of 2020! She has been with me through thick and thin and is the best cuddle buddy a girl could ask for.</p>
-            </div>
-
-        </section>
-        
-        <section class="me">
-            
-            <p>Caspian is my "captain banana" ball python (a champagne x banana with ringers). He came to me at a young age and is officially 1 year old as of 2020! He is my newest addition and has proved to be nothing but a total bundle of sweetness! </p>
-            <div class="welcome"> 
-                <img class="prof-pic" src='./images/caspianbday.jpg' alt="Caspian with birthday hat"/>
-            </div>
-
-        </section>
-            
-            
-        </main>
-
+        </div>
+                
     </body>
-
+        
     <footer>
         <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Allison Pittman</div>
     </footer>
 
 </html>
+
+

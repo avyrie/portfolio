@@ -9,6 +9,7 @@ This site was created to share and display my work and demonstrate my skillset.
 
 ### HTML5
 ### CSS3
+### JavaScript
 ### Bootstrap
 
 # Acknowledgements

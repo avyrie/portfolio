@@ -2,28 +2,43 @@
     background: url('../images/estee-janssens-2enBTsIVhUU-unsplash.jpg') top center no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 50vh;
+    height: 70vh;
 }
 
 img {
-    width: 25vw !important;
-}
-
-p {
-    padding-top: 25px;
+    width: 25vw;
 }
 
 .first {
     display: inline-block;
-}
-
-.first p {
-    padding-top: 10px;
+    /* margin-left: 10%; */
 }
 
 .first h5 {
     padding-bottom: 0px;
     margin-bottom: 0px;
+    text-align: center;
+}
+
+.software {
+    display: flex;
+    justify-content: center;
+    margin: 3% 5%;
+}
+
+.s-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.soft-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#soft-know {
+    padding-bottom: 15px;
 }
 
 .soft-icon {
@@ -44,4 +59,65 @@ p {
 
 #python-icon {
     width: 18vw !important;
+}
+
+.prof-pic {
+    padding-right: 15px;
+    margin-left: 0 !important;
+}
+
+.col {
+    padding: 0 !important;
+}
+
+.about-content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.c-one {
+    margin-bottom: 50px;
+}
+
+#more1, #more2 {
+    display: none;
+}
+
+.read-link {
+    color: rgb(102, 35, 156) !important;
+}
+.read-link:hover {
+    text-decoration: underline !important;
+}
+
+.paragraphs {
+    margin-left: 10px !important;
+}
+
+#carouselExampleIndicators {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+#carouselExampleIndicators1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.carousel-control-prev {
+    padding-left: 15px;
+}
+.carousel-control-next {
+    right: 20px !important;
+    /* width: 20px; */
+    /* height: 20px; */
+} 
+.next-arrow {
+    right: 35px !important;
+}
+.carousel-dash {
+    padding-right: 20px;
 }
