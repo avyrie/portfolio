@@ -120,34 +120,17 @@ h1 {
 }
 
 .prof-pic {
-    width: 40vw;
-    padding-right: 10px;
+    width: 35vw;
     height: 100%;
 }
 
-.me1 {
+.me {
     display: flex;
-    min-width: 240px;
+    /* width: 70%; */
     padding-top: 50px;
-    padding-left: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-@media screen and (max-width: 625px) {
-  .me1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .welcome {
-    margin-top: 30px;
-    padding-left: 0 !important;
-  }
-}
-
-.prof-pic1 {
-  width: 40vw;
-  min-width: 240px;
-  height: 100%;
+    /* padding-left: 30px; */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .about-link {
@@ -172,6 +155,16 @@ a h4 {
     height: 100%;
     padding-left: 50px;
     /* padding-top: 20px; */
+}
+@media screen and (max-width: 625px) {
+    .me {
+    display: flex;
+    flex-direction: column;
+    }
+    .welcome {
+    margin-top: 30px;
+    padding-left: 0 !important;
+    }
 }
 
 /* Footer */
