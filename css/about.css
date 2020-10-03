@@ -73,6 +73,7 @@ img {
 .about-content {
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 50px;
 }
 
 .c-one {
@@ -121,3 +122,52 @@ img {
 .carousel-dash {
     padding-right: 20px;
 }
+
+
+#know {
+    text-align: center;
+    margin: 50px 25px 25px 25px;
+}
+.col-sm {
+    min-width: 165px;
+}
+.about-cont {
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+h3 {
+    font-size: 25px;
+}
+#html {
+    list-style-image: url(../images/HTML5_logo.png);
+}
+#css {
+    list-style-image: url(../images/CSS3.png);
+}
+#js {
+    list-style-image: url(../images/js-icon.png);
+}
+#py {
+    list-style-image: url(../images/py-icon.png);
+}
+#sql {
+    list-style-image: url(../images/sql-icon.png);
+}
+
+.animals {
+    margin-top: 50px;
+}
+
+ul {
+    padding-right: 80px;
+}
+
+/* .prof-pic {
+    width: 30vw;
+} */
