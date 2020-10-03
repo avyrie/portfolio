@@ -127,6 +127,7 @@ img {
 #know {
     text-align: center;
     margin: 50px 25px 25px 25px;
+    color: rgb(128, 35, 156);
 }
 .col-sm {
     min-width: 165px;
@@ -143,6 +144,8 @@ h2 {
 }
 h3 {
     font-size: 25px;
+    color: rgba(163, 27, 163);
+
 }
 #html {
     list-style-image: url(../images/HTML5_logo.png);
