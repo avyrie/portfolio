@@ -1,3 +1,5 @@
+// Mobile
+
 function myFunction() {
     let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -13,6 +15,8 @@ function myFunction() {
       y.className = "fa fa-bars";
     };
 }
+
+// About
 
 function aboutFunction1() {
   var dots = document.getElementById("dots1");

@@ -53,6 +53,9 @@ html {
   i {
       color: rgba(163, 27, 163);
   }
+  #home {
+    display: none;
+  }
 
   #logo {
     width: 60px;
@@ -85,13 +88,21 @@ html {
         justify-content: right;
         
     }
+    /* .topnav a {
+      width: 100%;
+    } */
+    #home {
+      display: inline;
+    }
   }
   
   @media screen and (max-width: 730px) {
     .topnav.responsive {
         display: flex;
         flex-direction: column;
-        position: relative;}
+        position: relative;
+        padding-left: 0;
+      }
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
@@ -104,6 +115,13 @@ html {
     }
     #logo {
       display: none;
+    }
+    .index-home {
+      background-color: white;
+      color: rgba(104, 17, 104);
+    }
+    .topnav.responsive a {
+      padding-left: 40px;
     }
   }
 
@@ -202,8 +220,3 @@ footer {
     left: 0;
     right: 0;
 }
-
-/* Notes:
-- at 388px width, on contact page, find way to maintain contact box with no overflow
-- below 320px width, the footer bar starts to not span the entire width of the page (the nav bar still extends the whole width)
-*/
