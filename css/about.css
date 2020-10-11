@@ -174,3 +174,14 @@ ul {
 /* .prof-pic {
     width: 30vw;
 } */
+
+@media screen and (max-width: 730px) {
+    .about-wrap, .animal-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .prof-pic {
+        min-width: 273px;
+        padding-bottom: 15px;
+    }
+}
